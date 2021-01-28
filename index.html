@@ -10,9 +10,20 @@
 
 <body>
     <header>
-        <h1>Adivina el número</h1>
+        <h1 class="title">Adivina el número</h1>
     </header>
-    <main></main>
+    <main>
+        <form class="container">
+            <label for="number" class="guessNumberText">Introduce aquí tu número:</label>
+            <input name="number" value="" type="text" id="number" class="guessNumber" />
+
+            <input type="button" value="Prueba" class="btnTry">
+            <input type="text" value="" class="rectangle clue">
+            <input type="text" value="" class="rectangle attemps">
+
+
+        </form>
+    </main>
 
 
     <script type="text/javascript" src="./js/main.js"></script>

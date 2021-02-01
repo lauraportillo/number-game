@@ -4,6 +4,22 @@
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
 }
+
+.box {
+  width: 750px;
+  height: 350px;
+  padding: 10px;
+  background-color: ;
+  background-color: #c8c8c8;
+  border-radius: 10px;
+}
+
+.header {
+  width: 700px;
+  padding: 2px 10px;
+  background-color: pink;
+  border-radius: 5px;
+}
 .title {
   font-size: 50px;
   font-weight: bold;
@@ -27,20 +43,35 @@
   border: none;
 }
 .btnTry {
+  width: 270px;
   height: 35px;
   padding: 2px 10px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
   color: white;
   background-color: #14d9c4;
   border: none;
 }
+.btnTry:disabled {
+  background-color: darkgrey;
+}
 
 .rectangle {
   width: 700px;
   height: 35px;
   border: solid 3px pink;
+  background-color: #f5f5f5;
   font-size: 16px;
   padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.clueTextColor {
+  color: #14d9c4;
+  font-size: 24px;
+}
+
+.clueTextColorError {
+  color: red;
 }

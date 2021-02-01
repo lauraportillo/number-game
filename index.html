@@ -8,23 +8,26 @@
     <title>Laura Portillo</title>
 </head>
 
-<body>
-    <header>
-        <h1 class="title">Adivina el número</h1>
-    </header>
-    <main>
-        <form class="container">
-            <label for="number" class="guessNumberText">Introduce aquí tu número:</label>
-            <input name="number" value="" type="text" id="number" class="guessNumber js-guess" />
+<body class="body">
+    <div class="box">
+        <header class="header">
+            <h1 class="title1">Jugando con Laura</h1>
+            <h2 class="title2">Adivina el número</h2>
+        </header>
+        <main>
+            <form class="container">
+                <label for="number" class="guessNumberText">Introduce aquí tu número:</label>
+                <input name="number" autocomplete="off" value="" type="text" id="number" class="guessNumber js-guess" />
 
-            <input type="button" value="Prueba" class="btnTry js-try">
-            <input type="text" placeholder="Escribe un número y dale a Prueba" class="rectangle js-clue">
-            <input type="text" value="" placeholder="Número de intentos" class="rectangle js-attemps">
+                <input type="button" value="Prueba" class="btnTry js-try">
+                <input type="text" placeholder="Escribe un número entre 1 y 100 y dale a Prueba"
+                    class="rectangle js-clue">
+                <input type="text" value="" placeholder="Número de intentos" class="rectangle js-attemps">
 
 
-        </form>
-    </main>
-
+            </form>
+        </main>
+    </div>
 
     <script type="text/javascript" src="./js/main.js"></script>
 </body>

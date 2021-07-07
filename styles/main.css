@@ -123,4 +123,29 @@
 }
 
 @media all and (min-width: 1280px) {
+  .box {
+    margin-top: 20vh;
+    width: 520px;
+  }
+  .title {
+    margin-top: -50px;
+    width: 460px;
+    padding: 20px;
+  }
+  .title1 {
+    font-size: 40px;
+  }
+  .title2 {
+    font-size: 20px;
+  }
+  .guessNumber {
+    width: 460px;
+  }
+  .btnTry {
+    width: 460px;
+  }
+  .rectangle {
+    width: 460px;
+    font-size: 14px;
+  }
 }

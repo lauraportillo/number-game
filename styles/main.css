@@ -48,11 +48,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .guessNumberText {
   font-size: 18px;
+  margin-left: 10px;
 }
 .guessNumber {
   width: 260px;
@@ -72,7 +72,7 @@
   font-weight: bold;
   border-radius: 5px;
   color: white;
-  background-color: #892621;
+  background-color: olivedrab;
   margin-bottom: 50px;
   border: none;
 }
@@ -91,10 +91,36 @@
 }
 
 .clueTextColor {
-  color: #14d9c4;
+  color: olivedrab;
   font-size: 24px;
 }
 
 .clueTextColorError {
   color: red;
+}
+
+@media all and (min-width: 768px) {
+  .box {
+    margin-top: 20vh;
+    width: 420px;
+    height: 600px;
+  }
+  .title {
+    margin-top: -20px;
+    width: 380px;
+    padding: 20px;
+  }
+  .guessNumber {
+    width: 380px;
+  }
+  .btnTry {
+    width: 380px;
+  }
+  .rectangle {
+    width: 380px;
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 1280px) {
 }

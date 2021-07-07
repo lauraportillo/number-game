@@ -40,7 +40,7 @@ function handleStartGame() {
 
 function handleCountAttemps() {
   keystrokes = keystrokes + 1;
-  attempsElement.value = 'Número de intentos: ' + keystrokes;
+  attempsElement.value = 'Number of attemps: ' + keystrokes;
 }
 
 // EJECUCION: se ejecuta al cargar

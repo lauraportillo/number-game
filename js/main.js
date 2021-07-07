@@ -17,19 +17,19 @@ function handleStartGame() {
   const gameNumber = parseInt(guessElement.value);
 
   if (isNaN(gameNumber)) {
-    clueElement.value = ' Te has liaoooo! Te he dicho un número...';
+    clueElement.value = 'That is not a number...';
     clueElement.classList.add('clueTextColorError');
   } else if (gameNumber < 1 || gameNumber > 100) {
-    clueElement.value = ' Dijimos que eligieras entre 1 y 100! Sin trampis ;)';
+    clueElement.value = 'Choose please between 1 and ​100';
     clueElement.classList.add('clueTextColorError');
   } else if (gameNumber > result) {
-    clueElement.value = ' Demasiado alto';
+    clueElement.value = 'Too high';
     clueElement.classList.add('clueTextColorError');
   } else if (gameNumber < result) {
-    clueElement.value = ' Demasiado bajo';
+    clueElement.value = 'Too low';
     clueElement.classList.add('clueTextColorError');
   } else if (gameNumber === result) {
-    clueElement.value = ' Has ganado!! Oleeee, oleeeee y oleeeee';
+    clueElement.value = 'You win, you are a master!!';
     clueElement.classList.add('clueTextColor');
     clueElement.classList.remove('clueTextColorError');
     //STOP GAME

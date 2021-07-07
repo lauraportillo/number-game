@@ -9,25 +9,24 @@
 </head>
 
 <body class="body">
-    <div class="box">
-        <header class="header">
-            <h1 class="title1">Play with me</h1>
-            <h2 class="title2">and guess the number</h2>
-        </header>
-        <main>
-            <form class="container">
-                <label for="number" class="guessNumberText">Enter your number here:</label>
-                <input name="number" autocomplete="off" value="" type="text" id="number" class="guessNumber js-guess" />
+    <main class="box">
+        <div class="title">
+            <h1>Play with me</h1>
+            <h2>and guess the number</h2>
+        </div>
 
-                <input type="button" value="Attempts" class="btnTry js-try">
-                <input type="text" placeholder="Write a number between 1 and 100 and click on Attempts"
-                    class="rectangle js-clue">
-                <input type="text" value="" placeholder="Number of attemps" class="rectangle js-attemps">
+        <form class="container">
+            <label for="number" class="guessNumberText">Enter your number here:</label>
+            <input name="number" autocomplete="off" value="" type="text" id="number" class="guessNumber js-guess" />
 
+            <input type="button" value="Attempts" class="btnTry js-try">
+            <input type="text" placeholder="Write a number between 1 and 100 and click on Attempts"
+                class="rectangle js-clue">
+            <input type="text" value="" placeholder="Number of attemps" class="rectangle js-attemps">
 
-            </form>
-        </main>
-    </div>
+        </form>
+
+    </main>
 
     <script type="text/javascript" src="./js/main.js"></script>
 </body>

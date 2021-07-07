@@ -5,6 +5,7 @@ const guessElement = document.querySelector('.js-guess');
 const tryElement = document.querySelector('.js-try');
 const clueElement = document.querySelector('.js-clue');
 const attempsElement = document.querySelector('.js-attemps');
+const resetElement = document.querySelector('.js-reset');
 let keystrokes = 0;
 
 const result = getRandomNumber(100);
@@ -47,3 +48,8 @@ function handleCountAttemps() {
 tryElement.addEventListener('click', handleStartGame);
 tryElement.addEventListener('click', handleCountAttemps);
 console.log(result);
+
+function reset() {
+  location.reload();
+}
+resetElement.addEventListener('click', reset);
